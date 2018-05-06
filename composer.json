@@ -1,0 +1,12 @@
+{
+  "require": {
+    "catfan/medoo": "dev-master",
+    "monolog/monolog": "1.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "fish\\Common\\": "common/",
+      "fish\\lib\\": "lib/"
+    }
+  }
+}
